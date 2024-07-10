@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!--########### CSS Files #########-->
+    <link rel="stylesheet" href="CSS/style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!--==== Style Switcher ==== -->
+    <link rel="stylesheet" href="CSS/style-switcher.css">
+    <link rel="stylesheet" href="CSS/skins/color-1.css" class="alternat-style" title="color-1" disabled> 
+    <link rel="stylesheet" href="CSS/skins/color-2.css" class="alternat-style" title="color-2"> 
+    <link rel="stylesheet" href="CSS/skins/color-3.css" class="alternat-style" title="color-3" disabled> 
+    <link rel="stylesheet" href="CSS/skins/color-4.css" class="alternat-style" title="color-4" disabled> 
+    <link rel="stylesheet" href="CSS/skins/color-5.css" class="alternat-style" title="color-5" disabled> 
+    
+    
+</head>
+<body>
+     <!-- ==== Main Container Start === -->
+     <div class="main-containt">
+        
+        <!--=== Aside Start ===-->
+        <div class="aside">
+           <div class="logo">
+            <a href="#"><span>M</span>ayur</a>
+           </div>
+           <div class="nav-toggler">
+            <span></span>
+           </div>
+           <ul class="nav">
+            <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
+           <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
+           <li><a href="#services"><i class="fa fa-list"></i> Services</a></li>
+           <li><a href="#portfolio"><i class="fa fa-briefcase"></i> Portfolio</a></li>
+           <li><a href="#contact"><i class="fa fa-comments"></i> Contact</a></li>
+           </ul>
+        </div>
+        <!-- ==== Aside End ===== -->
+
+        <!-- ==== Main Container Start ==== -->
+        <div class="main container">
+            <!-- ==== Home Container Start ==== -->
+            <section class="home active section" id="home">
+                <div class="container">
+                   <div class="row">
+                    <div class="home-info padd-15">
+                        <h3 class="hello">Hello, my name is<span class="name"> Mayur Mane</span></h3>
+                        <h3 class="my-proffession">I'm a <span class="typing">Full Stack Developer</span></h3>
+                        <p>I'm learned and implimented full stack development for over 1 year. My expertise is to create a web applications, java applications, back end development and many more... </p>
+                        <a id="downloadBtn" href="#" class="btn">Download CV</a>
+                        <script>
+                            document.getElementById('downloadBtn').addEventListener('click', function() {
+                                window.location.href = 'Images/Mayur_Mane.pdf';
+                            });
+                        </script>
+                    </div>
+                    <div class="home-img padd-15">
+                        <img src="Images/Mayur Mane.jpg" alt="">
+                        
+                    </div>
+                   </div> 
+                </div>
+            </section>
+            <!-- ==== Home Container End ==== -->
+            <!-- ==== About Section Start ===== -->
+            <section class="about section" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>About Me</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-content padd-15">
+                            <div class="row">
+                                <div class="about-text padd-15">
+                                  <h3>I'm Mayur Mane and I'm<span>  Full Stack Java Developer</span></h3>
+                                  <p> 
+                                    As a dedicated Java Full Stack Developer, I have a proven track record of developing robust, scalable, and efficient web applications. My expertise spans across front-end and back-end technologies, including Java, Spring Boot, and React, complemented by my proficiency in database management with MySQL. I thrive in Agile environments, excel at problem-solving, and enjoy mentoring junior developers to foster a collaborative and innovative team culture.</p>  
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="personal-info padd-15">
+                                   <div class="row">
+                                    <div class="info-item padd-15">
+                                        <p>Birthday: <span>14 April 2001</span></p>
+                                    </div>
+                                    <div class="info-item padd-15">
+                                        <p>Age: <span>22</span></p>
+                                    </div>
+                                    <div class="info-item padd-15">
+                                        <p>Website: <span>www.domain.com</span></p>
+                                    </div>
+                                    <div class="info-item padd-15">
+                                        <p>Email: <span> mayurmane656@gmail.com</span></p>
+                                    </div>
+                                    <div class="info-item padd-15">
+                                        <p>Degree: <span>Computer Science and Engineering</span></p>
+                                    </div>
+                                    <div class="info-item padd-15">
+                                        <p>Phone: <span>+91 8080695243</span></p>
+                                    </div>
+                                    <div class="info-item padd-15">
+                                        <p>City: <span>Pune</span></p>
+                                    </div>
+                                    <div class="info-item padd-15">
+                                        <p>Freelance: <span>Available</span></p>
+                                    </div>
+                                   </div> 
+                                   <div class="row">
+                                    <div class="buttons padd-15">
+                                        <a href="contact" data-section-index="1" class="btn ">Hire-me</a>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="skills padd-15">
+                                    <div class="row">
+                                        <div class="skill-item padd-15">
+                                            <h5>Java</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 88%;">
+                                                    <div class="skill-percent">88%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>SpringBoot</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 76%;">
+                                                    <div class="skill-percent">76%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>SQL</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 94%;">
+                                                    <div class="skill-percent">94%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>JavaScript</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 84%;">
+                                                    <div class="skill-percent">84%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>React.js</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 70%;">
+                                                    <div class="skill-percent">70%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item padd-15">
+                                            <h5>HTML & CSS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 90%;">
+                                                    <div class="skill-percent">90%</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="education padd-15">
+                                    <h3 class="title">Education</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                           <div class="timeline shadow-dark">
+                                            <!-- ==== Timeline Item ====-->
+                                            <div class="timeline-item">
+                                              <div class="circle-dot"></div> 
+                                                <h3 class="timeline-date">
+                                                    <i class="fa fa-calendar"></i> 2019 - 2023
+                                                </h3>
+                                                <h4 class="timeline-title">B. Tech Computer Science and Engineering</h4>
+                                                <p class="timeline-text">I hold a Bachelor of Technology (B.Tech) degree in Computer Science and Engineering from Shivaji University Kolhapur with 80.27% and completed in 2023.  I also gained hands-on experience with databases, web technologies, and cloud computing, which equipped me with a comprehensive understanding of both theoretical and practical aspects of computer science.</p>
+                                               
+                                            </div>
+                                            <div class="timeline-item">
+                                                <div class="circle-dot"></div>
+                                                  <h3 class="timeline-date">
+                                                      <i class="fa fa-calendar"></i> 2018 - 2019
+                                                  </h3>
+                                                  <h4 class="timeline-title">HSC</h4>
+                                                  <p class="timeline-text">I completed my HSC in 2019 from Jr. College of Science, Arts, Commerce, and Vocational, Rahimatpur with 65.34%.</p>
+                                                  
+                                              </div>
+                                              <div class="timeline-item">
+                                                <div class="circle-dot"></div>
+                                                  <h3 class="timeline-date">
+                                                      <i class="fa fa-calendar"></i> 2018 - 2019
+                                                  </h3>
+                                                  <h4 class="timeline-title">SSC</h4>
+                                                  <p class="timeline-text">I completed my SSC in 2017 from Dr. V. G. Alies Kakasaheb Paranjpe Vidyalaya Rahimatpur with 88.20%.</p>
+                                                  
+                                              </div>
+                                           </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="experince padd-15">
+                                    <h3 class="title">Training</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                           <div class="timeline shadow-dark">
+                                            <!-- ==== Timeline Item ====-->
+                                            <div class="timeline-item">
+                                              <div class="circle-dot"></div> 
+                                                <h3 class="timeline-date">
+                                                    <i class="fa fa-calendar"></i> July 2023 - Ongoing
+                                                </h3>
+                                                <h4 class="timeline-title">Profound Edutech Private Limited, Pune</h4>
+                                                <h5>Training and Internship</h5>
+                                                <p class="timeline-text">I am a proficient Java Full Stack Developer experience in creating high-performing, scalable, and user-centric web applications. My technical expertise includes a strong command of Java, Spring Boot, and Front end  on the back end, combined with modern front-end frameworks such as React.</p>
+                                                  <p class="timeline-text">  I have a robust understanding of database management with MySQL, PostgreSQL, and MongoDB, and I am adept at utilizing tools like Git and Docker to streamline the development and deployment process. 
+                                                </p>
+                                                  <p class="timeline-text">  My experience spans across designing and implementing RESTful APIs, ensuring seamless integration between front-end and back-end components.
+                                                </p>
+                                            </div>
+                                           </div> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ==== About Section End ===== -->
+            <!-- ==== Service Section Start ==== -->
+            <section class="service section" id="services">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Services</h2> 
+                        </div>                  
+                     </div>
+                     <div class="row">
+                        <!-- ==== Service Item Start ====-->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-mobile-alt"></i>
+                                </div>
+                                <h4>Web Development</h4>
+                                <p>I offer web design services for portfolio website, creating visually appealing, user-friendly, and responsive sites. With expertise in HTML, CSS, JavaScript, and UI/UX principles, React.js, I craft custom designs that showcase your skills and projects, ensuring an impressive and professional online presence.</p>
+                            </div>
+                        </div>
+                        <!-- ==== Service Item End ====-->
+                        <!-- ==== Service Item Start ====-->
+                        <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-laptop-code"></i>
+                                </div>
+                                <h4>Backend Development</h4>
+                                <p> Expertise in Spring boot and I craft custom designs that showcase ensuring an impressive and professional online presence.</p>
+                            </div>
+                        </div>
+                        <!-- ==== Service Item End ====-->
+                         <!-- ==== Service Item Start ====-->
+                         <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-palette"></i>
+                                </div>
+                                <h4>SQL Development</h4>
+                                <p>Expertise in SQl, and I also have knowledge in MySQL, PostgreSQL  I craft custom designs that showcase ensuring an impressive and professional online presence.</p>
+                            </div>
+                        </div>
+                        <!-- ==== Service Item End ====-->
+                         <!-- ==== Service Item Start ====-->
+                         <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-code"></i>
+                                </div>
+                                <h4>Java Development</h4>
+                                <p>Expertise in Core Java, Advance Java and Java Frameworks, I craft custom designs that showcase ensuring an impressive and professional online presence.</p>
+                            </div>
+                        </div>
+                        <!-- ==== Service Item End ====-->
+                         <!-- ==== Service Item Start ====-->
+                         <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-search"></i>
+                                </div>
+                                <h4>Full Stack Development</h4>
+                                <p>Expertise in Full stack development which I learned Java, Java Frameworks, Front end knowledge with projects.</p>
+                            </div>
+                        </div>
+                        <!-- ==== Service Item End ====-->
+                         <!-- ==== Service Item Start ====-->
+                         <div class="service-item padd-15">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-bullhorn"></i>
+                                </div>
+                                <h4>Marketing</h4>
+                                <p>Expertise in HTML, CSS, JavaScript, and UX/UI principles, I craft custom designs that showcase ensuring an impressive and professional online presence.</p>
+                            </div>
+                        </div>
+                        <!-- ==== Service Item End ====-->
+                     </div>
+                </div>
+            </section>
+            <!-- ==== Service Item End ====-->
+            <!-- ==== Portfolio Item Start ====-->
+            <section class="portfolio section" id="portfolio">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Portfolio</h2> 
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="portfolio-heading padd-15">
+                            <h2>My Last Projects: </h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- ==== Portfolio item start ==== -->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="Images/portfolio/portfolio-1.jpg" alt="">
+                                    <h5>Alumni Connect Website</h5>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- ==== Portfolio item end ==== -->
+                          <!-- ==== Portfolio item start ==== -->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="Images/portfolio/portfolio-2.jpg" alt="">
+                                    <h5>E-commerce Website</h5>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- ==== Portfolio item end ==== -->
+                          <!-- ==== Portfolio item start ==== -->
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="Images/portfolio/portfolio-3.jpg" alt="">
+                                    <h5>Employee Management System</h5>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- ==== Portfolio item end ==== -->
+                    </div>
+                </div>    
+            </section>
+            <!-- ==== Portfolio section End ====-->
+            <!-- ==== Contact Section End ====-->
+            <section class="contact section" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Contact Me</h2>
+                        </div>
+                    </div>
+                    <h3 class="contact-title padd-15">Have You Any Qustions ?</h3>
+                    <h4 class="contact-sub-title padd-15">I'm At Your SERVICES</h4>
+                    <div class="row">
+                        <!-- ==== Contact info item start ==== -->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-phone"></i></div>
+                            <h4>Call us on</h4>
+                            <p>+91 8080695243</p>
+                        </div>
+                        <!-- ==== Contact info item end ==== -->
+                         <!-- ==== Contact info item start ==== -->
+                         <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-envelope"></i></div>
+                            <h4>Email</h4>
+                            <p>mayurmane656@gmail.com</p>
+                        </div>
+                        <!-- ==== Contact info item end ==== -->
+                          <!-- ==== Contact info item start ==== -->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-envelope"></i></div>
+                            <h4>GitHub</h4>
+                            <a href="https://github.com/7mayur14"><p>Profile</p></a>
+                        </div>
+                        <!-- ==== Contact info item end ==== -->
+                        <!-- ==== Contact info item start ==== -->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-envelope"></i></div>
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/mayur-mane-019982175"><p>Profile</p></a>
+                        </div>
+                        <!-- ==== Contact info item end ==== -->
+                    </div>
+                    <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
+                    <h4 class="contact-sub-title padd-15">I'M VERY RESPONSIVE TO MESSEGING </h4>
+                    <div class="row">
+                        <div class="contact-form padd-15">
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                  <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Name">
+                                  </div>  
+                                </div>
+                            
+                            
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                      <input type="text" class="form-control" placeholder="Email">
+                                    </div>  
+                                  </div>
+                            </div>
+                            <div class="row">
+                                  <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                      <input type="text" class="form-control" placeholder="Subject">
+                                    </div>  
+                                  </div>
+                            </div>
+                            <div class="row">
+                                  <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                      <textarea name="" class="form-control" placeholder="Message" ></textarea>
+                                    </div>  
+                                  </div> 
+                            </div> 
+                        
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <button type="submit" class="btn">Send Message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- ==== Main Containt End ==== -->
+
+     </div>
+     <!-- ==== Main Container End ==== -->
+     <!-- ==== Style Switcher Start ==== -->
+     <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="day-night s-icon">
+            <i class="fas "></i>
+        </div>
+        <h4>Theme Colors</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+     </div>
+     <!-- ==== Style Switcher End ==== -->
+    <!--####### JavaScript file #########-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+    <script src="JavaScript/script.js"></script>
+    <script src="JavaScript/style-switcher.js"></script>
+    <script src="JavaScript/server.js"></script>
+</body>
+</html>
