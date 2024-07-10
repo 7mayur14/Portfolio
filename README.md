@@ -1,6 +1,6 @@
 # Portfolio
 ### You can visit that site 
-- [![Profile_Mayur](https://img.shields.io/badge/Portfolio-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://mayurmaneportfolio.netlify.app/)
+- [![Profile_Mayur](https://img.dot.io/badge/Portfolio-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://mayurmaneportfolio.netlify.app/)
 
 This is Portfolio Website  which give an deep understanding about my expertise and education.
 Welcome to my portfolio website! This site showcases my projects, skills, and contact information. It also supports both dark and light modes for a better user experience.
